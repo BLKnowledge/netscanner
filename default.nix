@@ -12,10 +12,10 @@ rustPlatform.buildRustPackage rec {
     ];
 
     src = fetchFromGitHub {
-     owner = "Chleba";
+     owner = "BLKnowledge";
      repo = pname;
      rev = version;
-     hash = "sha256-ad2df332bb347eac96c0a5d22e9477f9a7fe4b05d565b90009cc1c3fb598b29f=";
+     hash = "sha256-DVucFlvUciKyfTae1LSd9yUC+3Iff4lEE1jWBsOxz/s=";
     };
 
     cargoHash = "sha256-3d8b0c408f0272336c03e6039e0c4611b7c75ad3d298d2cba2fc33336add7def=";
